@@ -10,10 +10,6 @@ public class IndexController {
     public String index() {
         return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
     }
-    @GetMapping("/new")
-    public String h() {
-        return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
-    }
     @GetMapping("/error")
     public String Error() {
         return "Does Not Exists.  🌋 🚒  🔥 ";
