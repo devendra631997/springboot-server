@@ -8,6 +8,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello there! I'm running.";
+        return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
     }
 }
