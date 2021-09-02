@@ -10,4 +10,8 @@ public class IndexController {
     public String index() {
         return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
     }
+    @GetMapping("/new")
+    public String h() {
+        return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
+    }
 }
