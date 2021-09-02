@@ -14,4 +14,8 @@ public class IndexController {
     public String h() {
         return "Dont Worry! I'm running.  🌋 🚒  🔥 ";
     }
+    @GetMapping("/error")
+    public String Error() {
+        return "Does Not Exists.  🌋 🚒  🔥 ";
+    }
 }
